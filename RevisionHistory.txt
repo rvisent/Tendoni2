@@ -1,0 +1,14 @@
+TENDONI V2 primo PCB montato 19/3/2011
+
+rev1.2 2/6/2011
+- introdotte #define in main.h per differenziare i tempi SOGGIORNO, MANSARDA, TESTMODE
+
+rev1.1 31/5/2011
+- modifica al controllo DI_DOWN in move_updown per evitare false letture allo scatto
+  dei relé (problema riscontrato sull'unità mansarda, spesso allo scatto relé di
+  entrata in allarme se ne usciva da solo e passava in manuale, come fosse stato
+  premuto il tasto). Modificato anche hardware per evitare spike sull'ingresso del
+  micro.
+
+rev1 22/5/2011
+- prima installazione su terrazza soggiorno
